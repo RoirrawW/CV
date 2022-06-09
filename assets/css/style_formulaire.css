@@ -1,0 +1,21 @@
+/******************** Fonts ********************/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/******************** Formulaire ********************/
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/form/fire1.gif");
+}
+
+form {
+    width: 60%;
+    margin: auto;
+}
+
+img {
+    height: 30px;
+}

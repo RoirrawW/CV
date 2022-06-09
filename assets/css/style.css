@@ -1,0 +1,172 @@
+/******************** Fonts ********************/
+
+@font-face {
+  font-family: open-sans;
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: work-sans;
+  src: url("../fonts/WorkSans-Regular.ttf");
+}
+
+* {
+  font-family: open-sans;
+}
+
+h2 {
+  font-family: work-sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: work-sans;
+}
+
+
+/******************** HTML ********************/
+
+
+
+
+/******************** Body ********************/
+
+
+
+
+/******************** Header ********************/
+
+header h1 {
+  font-family: work-sans;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+header h2 {
+  font-family: work-sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+
+/******************** Navigation ********************/
+
+@media (min-width: 768px) {
+  .border-md-bottom-0 {
+    border-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .border-lg-bottom-0 {
+    border-bottom: 0 !important;
+  }
+}
+
+nav {
+  position: sticky !important;
+  top: 0;
+}
+
+nav a:hover {
+background-color: #0dcaf0;
+color: black !important;
+}
+
+
+/******************** Main ********************/
+
+
+
+
+
+/******************** Section Profil ********************/
+
+#profil ul {
+  list-style-type: none;
+}
+
+
+/******************** Section Formations ********************/
+
+.ri7 {
+  height: 80px;
+}
+
+.eloi {
+  height: 150px;
+}
+
+#formations h3 {
+  letter-spacing: 1px;
+}
+
+#formations {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/form/fire2.gif");
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/******************** Section Expériences professionnelles ********************/
+
+#experiences ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/******************** Section Compétences ********************/
+
+#competences img {
+  height: 100px;
+}
+
+#competences ul {
+  list-style-type: none;
+}
+
+#competences {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/form/fire3.gif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/******************** Section Loisirs ********************/
+
+#loisirs img {
+  height: 150px;
+}
+
+
+/******************** Section Contact ********************/
+
+#contact div {
+  height: 200px;
+  width: 400px;
+}
+
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/form/fire1.gif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/******************** Section Footer ********************/
+
+footer p {
+  font-size: 13px;
+  font-style: italic;
+}
+
+footer img {
+  height: 75px;
+}
